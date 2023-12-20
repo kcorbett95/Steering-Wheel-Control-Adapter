@@ -12,18 +12,18 @@
 //Definitions for output resistances required for stereo, these will need to be changed based on your head-unit and the
 //resistance it requires for each media function. See ReadMe for more information
 #define noBtn 100000
-#define volUp 18000
+#define volUp 16000
 #define volDn 24000
-#define trackUp 8500
-#define trackDn 5000
-#define listInfo 10000
-#define back 80000
+#define trackUp 8000
+#define trackDn 11250
+#define listInfo 5750
+#define back 62750
 #define muteEnter 3500
-#define source 500
+#define source 1600
 #define voice 80000
 #define offHook 5000
-#define onHook 3500
-#define short 1
+#define onHook 1500
+#define short 0
 
 // initialization code, do not alter
 void setup() {
